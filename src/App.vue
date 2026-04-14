@@ -9,7 +9,7 @@
 
 <script setup>
 import TopComp from './components/TomComp/TopComp.vue'
-import SecondComp from './components/Second.vue';
+import SecondComp from './components/SecondComp.vue';
 import ThirdComp from './components/ThirdComp.vue';
 import MapComp from './components/MapComp.vue';
 </script>
