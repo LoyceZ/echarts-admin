@@ -125,6 +125,9 @@ const renderChart = (v1,v2) => {
         color: 'skyblue',
       },
     },
+    tooltip: {
+      trigger: 'item',
+    },
   }
 }
 const handleSelect = (index) => {
@@ -166,7 +169,7 @@ onMounted(async () => {
       padding-left: 50px;
     }
     .right {
-      position: absolute;
+      position: absolut e;
       top: 15px;
       right: 2px;
       font-size: 0;

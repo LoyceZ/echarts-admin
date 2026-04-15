@@ -235,7 +235,8 @@ onMounted(async () => {
     display: flex;
     margin-top:20px;
     gap:20px;
-    .left{
+    overflow: scroll;
+.left{
         flex: 1;
         h2 {
         font-weight: 600;

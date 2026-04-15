@@ -27,3 +27,10 @@ export const getCategoryData = () => {
         url: '/categorydata',
     })
 }
+
+export const getMapData = () => {
+    return request({
+        method: 'GET',
+        url: '/mapdata',
+    })
+}
