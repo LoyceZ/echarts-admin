@@ -169,9 +169,9 @@ onMounted(async () => {
       padding-left: 50px;
     }
     .right {
-      position: absolut e;
+      position: absolute;
       top: 15px;
-      right: 2px;
+      right: 10px;
       font-size: 0;
       .el-radio-group {
         margin-right: 10px;
